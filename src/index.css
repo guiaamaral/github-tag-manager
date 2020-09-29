@@ -1,13 +1,25 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Mulish';
+}
+.logo-home {
+  width: 220px;
+}
+.logo-appBar {
+  width: 120px;
+}
+.MuiButton-containedPrimary,
+.MuiButton-text {
+  border-radius: 20px !important;
+}
+.MuiButton-containedPrimary .MuiButton-label,
+.MuiButton-text .MuiButton-label {
+  text-transform: none !important;
+}
+.MuiSvgIcon-fontSizeSmall {
+  top: 5px;
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.inputChip .MuiChip-sizeSmall {
+  margin-top: 7px
 }
